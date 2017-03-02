@@ -28,9 +28,7 @@ com.ibm.mq.jmqi.jar
 com.ibm.mqjms.jar
 providerutil.jar
 
-com.ibm.mq.connector.jar can be extracted from wmq.jmsra.rar which is availble on nexus
-http://repo.wal-mart.com/service/local/repositories/thirdparty/content/wmq/jmsra/wmq.jmsra/8.0.0.5/wmq.jmsra-8.0.0.5.rar
-
+com.ibm.mq.connector.jar can be extracted from wmq.jmsra.rar which is availble with IBM MQ installation (not available on internet)
 
 #### tomee.xml: 
 This file (located under tomee_home/conf is left blank as we would like our application to manage all resources.Any resource declared here would be available to all application deployed on the server.
